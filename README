@@ -4,7 +4,8 @@ Copyright 2011 Dan Auclair | dan@danauclair.com
 
 This is a simple Ruby on Rails app that searches for anagrams based on input letters as you type. The results are sorted by Scrabble/WWF word scores.
 
-Uses a SQLite database seeded by the Enhanced North American Benchmark Lexicon (enable1.txt - http://www.puzzlers.org/pub/wordlists/enable1.txt) dictionary which is the same as used by Words With Friends.
+Uses a SQLite database seeded by the Enhanced North American Benchmark Lexicon (enable1.txt) which is the same dictionary used by Words With Friends.
+http://www.puzzlers.org/pub/wordlists/enable1.txt
 
 
 The MIT License
