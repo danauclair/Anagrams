@@ -1,0 +1,12 @@
+<% if words.count == 0 %>
+	<p class="empty">No results</p>
+<% else %>
+	<table>
+		<% words.each do |word| %>
+			<tr>
+				<td class="score"><%= word.score %></td>
+				<td><%= word.value %></td>
+			</tr>
+		<% end %>
+	</table>
+<% end %>

@@ -1,0 +1,72 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+
+body {
+	background-color: #f7f7f7;
+	color: #5e5e5e;
+  	font-family: helvetica, arial, verdana, sans-serif;
+  	font-size: 14px;
+	text-align: center;
+}
+
+#content {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto;
+	background-color: #ffffff;
+	width: 900px;
+	padding: 0;
+	text-align: center;
+	border-left: 2px solid #dddddd;
+	border-right: 2px solid #dddddd;
+}
+
+#search_results {
+	margin-top: 10px;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+p.empty {
+	margin-top: 5px;
+}
+
+table {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: left;
+}
+
+h1 {
+	margin: 0;
+	padding: 5px;
+	color: #5e5e5e;
+	font-size: 5em;
+}
+
+h2 {
+	font-size: 2em;
+	margin: 0;
+	padding: 10px;
+}
+
+.score {
+	text-align: right;
+	padding-right: 25px;
+}
+
+#query {
+	height: 60px;
+	width: 300px;
+	font-size: 3em;
+	font-family: helvetica, arial, verdana, sans-serif;
+	border: 3px solid #DDDDDD;
+}
+
+a { color: #000; }
+a:visited { color: #666; }
+a:hover { color: #fff; background-color:#000; }

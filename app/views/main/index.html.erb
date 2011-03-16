@@ -1,0 +1,12 @@
+<h1>Anagrams</h1>
+<h2>Begin typing letters to search for anagrams...</h2>
+<% form_tag do %>
+	<%= text_field_tag("query", params[:query], 
+								:autocomplete => "off", 
+								:autofocus => true) %>
+<% end %>
+
+<%= observe_field 'query', :update => "search_results",								
+						   :url => {:action => "search"},
+						   :with => "query" %>
+<div id="search_results"></div>
