@@ -33,7 +33,7 @@ body {
 
 p.source {
 	float: right;
-	margin: 0px 5px 5px 5px;
+	margin: 0 5px 0 0;
 }
 
 p.empty {
@@ -48,9 +48,10 @@ table {
 
 h1 {
 	margin: 0;
-	padding: 5px;
+	padding: 0 0 5px 0;
 	color: #5e5e5e;
 	font-size: 5em;
+	clear: both;
 }
 
 h2 {
